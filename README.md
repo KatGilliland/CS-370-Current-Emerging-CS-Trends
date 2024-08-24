@@ -1,1 +1,14 @@
-# CS-370-Current-Emerging-CS-Trends
+# Course: CS-370-Current-Emerging-CS-Trends
+# Name: Kat Gilliland
+
+# Briefly explain the work that you did on this project: What code were you given? What code did you create yourself? 
+This project focused on a treasure hunt game where the goal is for the player to find the treasure before the pirate finds it. I was tasked with creating an intelligent agent to control a non-player character (NPC) representing the pirate in the game. The sample starter code given to me for this project included an environment where my pirate was placed (TreasureEnvironment.py class) which held some important methods and functionalities for gameplay, such as updating the game state based on the pirate’s movements and providing rewards according to the pirate’s actions, functions that are vital when taking a reinforcement learning (RL) approach to design and development. The starter code also included a GameExperience.py class and a build model. The GameExperience.py class handled experience replay (i.e., storing episodes, which the intelligent agent could learn from), and the build model offered a complete implementation in which to build a neural network model. My responsibility for this project was to implement the deep Q-learning algorithm to train the pirate agent. To aid the pirate in identifying the most efficient route (one that maximizes rewards) to get to the treasure, I utilized a training loop that combines exploration and exploitation, experience replay, and a neural network. 
+
+# What do computer scientists do and why does it matter?
+Computer scientists help find the most efficient and effective solutions to various types of challenges through programming and software development. Without computer scientists, the world wouldn’t experience many of the amazing technological advances available today (AI applications, automation capabilities, and software systems). Computer scientists help boost productivity and connectivity in organizations through the products they create and lay the foundation for modern, innovative technologies. 
+
+# How do I approach a problem as a computer scientist?
+As a computer scientist I approach a problem by looking to solve it in the most efficient, effective, and ethical manner. To do this, I aim to thoroughly understand the problem before analyzing potential solutions and selecting the best approach to take. It is essential for me that my solutions are ethically responsible and take user security and privacy seriously. 
+
+# What are my ethical responsibilities to the end user and the organization?
+My responsibilities to both the end user and the organization are to ensure any solutions I offer adhere to ethical standards and keep the user’s best interest at heart. I can do this by adhering to relevant laws and regulations (such as the GDPR law) and being transparent about how my programs work (i.e., explaining how decisions are made and how data is handled). Not only is my goal to make sure my solutions are technically sound but also that they are fair, unbiased, and socially responsible.
